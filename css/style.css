@@ -1,0 +1,21 @@
+:root {
+	--primary-color: #6cb9ab;
+	--secondary-color: #64099b;
+	--white-color: #f2f9f7;
+	--black-color: #1d1c1d;
+}
+
+body {
+	background: var(--primary-color);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.products {
+	background: var(--white-color);
+}
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+}
