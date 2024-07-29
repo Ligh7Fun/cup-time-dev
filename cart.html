@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Cup Time - Корзина</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<a class="header__logo-link" href="./index.html">
+					<img
+						class="header__logo"
+						src="./image/logo.svg"
+						alt="Логотип Cup Time"
+					/>
+				</a>
+
+				<nav class="header__nav">
+					<ul class="header__menu">
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">Чай</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">Кофе</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">Чайники</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">Турки</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">Прочее</a>
+						</li>
+					</ul>
+				</nav>
+
+				<a href="cart.html" class="header__cart-link">6</a>
+			</div>
+		</header>
+		<main class="main">
+			<section class="promo">
+				<div class="container">
+					<div class="promo__container">
+						<h1 class="promo__title">Попробуй новый вкус Арабики</h1>
+
+						<a class="promo__link" href="#">Перейти к кофе</a>
+					</div>
+				</div>
+			</section>
+			<section class="cart">
+				<div class="container">
+					<h2 class="cart__title">Корзина (6)</h2>
+					<div class="cart__items">
+						<div class="cart__item">
+							<img
+								src="./image/photo-2.jpg"
+								alt="Кокосовая матча"
+								class="cart__item-img"
+							/>
+							<h3 class="cart__item-title">Кокосовая матча</h3>
+							<button class="cart__btn">-</button>
+							<span class="cart__count">1</span>
+							<button class="cart__btn">+</button>
+							<p class="cart__price">390 ₽</p>
+						</div>
+
+						<div class="cart__item">
+							<img
+								src="./image/photo-1.jpg"
+								alt="Зеленый индо..."
+								class="cart__item-img"
+							/>
+							<h3 class="cart__item-title">Зеленый индо...</h3>
+							<button class="cart__btn">-</button>
+							<span class="cart__count">1</span>
+							<button class="cart__btn">+</button>
+							<p class="cart__price">390 ₽</p>
+						</div>
+
+						<div class="cart__item">
+							<img
+								src="./image/photo-3.jpg"
+								alt="Чай черный Ла..."
+								class="cart__item-img"
+							/>
+							<h3 class="cart__item-title">Чай черный Ла...</h3>
+							<button class="cart__btn">-</button>
+							<span class="cart__count">1</span>
+							<button class="cart__btn">+</button>
+							<p class="cart__price">390 ₽</p>
+						</div>
+
+						<div class="cart__item">
+							<img
+								src="./image/photo.jpg"
+								alt="Черный чай из..."
+								class="cart__item-img"
+							/>
+							<h3 class="cart__item-title">Черный чай из...</h3>
+							<button class="cart__btn">-</button>
+							<span class="cart__count">1</span>
+							<button class="cart__btn">+</button>
+							<p class="cart__price">390 ₽</p>
+						</div>
+
+						<div class="cart__summary">
+							<p class="cart__summary-text">Итого:</p>
+							<p class="cart__summary-price">2200 ₽</p>
+							<div class="cart__summary-button">
+								<button>Заказать</button>
+							</div>
+						</div>
+					</div>
+					<h2 class="cart__title">Доставка</h2>
+
+					<div class="cart__delivery">
+						<form action="">
+							<input
+								class="cart__delivery-input"
+								type="text"
+								name="name"
+								placeholder="Имя"
+							/>
+							<input
+								class="cart__delivery-input"
+								type="text"
+								name="phone"
+								placeholder="Телефон"
+							/>
+							<input
+								class="cart__delivery-input"
+								type="text"
+								name="address"
+								placeholder="Адрес"
+							/>
+							<p class="cart__delivery-text">Оплата:</p>
+							<div class="cart__delivery-radio">
+								<input
+									class="cart__delivery-radio-input"
+									type="radio"
+									name="payment"
+									value="card"
+								/>
+								<label class="cart__delivery-radio-label" for="card"
+									>Картой</label
+								>
+							</div>
+							<div class="cart__delivery-radio">
+								<input
+									class="cart__delivery-radio-input"
+									type="radio"
+									name="payment"
+									value="cash"
+								/>
+								<label class="cart__delivery-radio-label" for="cash"
+									>Наличными</label
+								>
+							</div>
+							<button class="cart__delivery-button">Заказать</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container footer__container">
+				<a class="footer__logo-link" href="./index.html">
+					<img
+						src="./image/logo.svg"
+						alt="Логотип Cup Time"
+						class="footer__logo"
+					/>
+				</a>
+				<div class="footer__nav">
+					<ul class="footer__menu">
+						<li class="header__menu-item">
+							<a href="#" class="footer__menu-link">Чай</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="#" class="footer__menu-link">Кофе</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="#" class="footer__menu-link">Чайники</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="#" class="footer__menu-link">Турки</a>
+						</li>
+						<li class="footer__menu-item">
+							<a href="#" class="footer__menu-link">Прочее</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__info">
+					<p class="footer__copyright">©CUPTIME, 2024</p>
+					<p class="footer__description">Проект сделан в учебных целях</p>
+					<p class="footer__dev">
+						Designer: <a href="#" class="footer__dev-link">Anastasia Ilina</a>
+					</p>
+					<p class="footer__dev">
+						Developer: <a href="#" class="footer__dev-link">Tsybin Denis</a>
+					</p>
+				</div>
+				<div class="footer__contacts">
+					<a href="mailto:m5221710@gmail.com" class="footer__email">
+						m5221710@gmail.com
+					</a>
+					<div class="footer__social">
+						<a href="#" class="footer__social-link">
+							<img src="./image/tg.svg" alt="Telegram" />
+						</a>
+						<a href="#" class="footer__social-link">
+							<img src="./image/yt.svg" alt="YouTube" />
+						</a>
+						<a href="#" class="footer__social-link">
+							<img src="./image/vk.svg" alt="VK" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -14,6 +14,9 @@ body {
 .products {
 	background: var(--white-color);
 }
+.cart {
+	background: var(--white-color);
+}
 
 .container {
 	width: 1300px;
